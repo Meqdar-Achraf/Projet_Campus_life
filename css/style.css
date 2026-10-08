@@ -159,6 +159,14 @@ button a {
     display: flex;
     justify-content: space-around;
 }
+.chiffres i{
+    font-size: 30px;
+    color: #034BFF;
+}
+
+.chiffres .ch1 {
+    display: flex;
+}
 
 .chiffres  h3 {
     font-weight: 800;
@@ -180,7 +188,7 @@ button a {
     font-weight: 400;
     font-size: 10px;
     line-height: 120%;
-    margin-left: 56px;
+    margin-left: 70px;
     color: #034BFF;
 }
 
@@ -204,27 +212,98 @@ button a {
 }
 
 .campus {
+    background-color: #F4F7FC;
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .campus a{
-    font-weight: 700;
-    text-decoration: none;
+    display: inline-flex;
+    width: 179px;
+    height: 60px;
     margin-left: 56px;
+    background-color: #034BFF;
     border: none;
     border-radius: 5px;
-    background-color: #034BFF;
-    border-width: 170px;
-
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 700;
+    color: #ffffff;
+    cursor: pointer;
+    padding-left: 10px;
 }
 
+.campus a:hover{
+    color: #373737;
+}
 
 .campus .images{
-    display: inline;
+    display: flex;
+    margin-right:90px ;
+    margin-top: 60px;
 }
 
 
+
+.campus .images h4{
+    display:flex;
+    border:solid;
+    border-color:#0a1222 ;
+    background-color: #0a1222;
+    border-radius: 5px;
+    border-width: 5px;
+    height: 29px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+
+.building img{
+    width: 202px;
+    height: 184px;
+    top: 41px;
+    left: 456px;
+    border-radius: 10px;
+    transform: rotate(355deg);
+}
+
+.building h4{
+    margin-top:-30px ;
+    position: relative;
+}
+
+
+.espace1 img {
+    width: 186px;
+    height: 163px;
+    top: 78px;
+    left: 651px;
+    border-radius: 10px;
+    transform: rotate(7deg);
+}
+
+.espace1 h4{
+    margin-top: -30px;
+    position: relative;
+}
+
+.espace2 img{
+    width: 170px;
+    height: 116px;
+    top: 26px;
+    left: 804px;
+    border-radius: 10px;
+    transform: rotate(10deg);
+    margin-right: 40px;
+}
+
+.espace2 h4{
+    margin-top: -25px;
+    position: relative;
+}
 
 .events {
   display: flex;
