@@ -34,7 +34,7 @@ le projet généralement contenir :
 - des feuilles de style CSS ;
 - des ressources graphiques ;
 
-## Structure probable du projet
+## Structure logique du projet
 campus-life/
 
 ├── acceuill.html
