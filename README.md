@@ -1,4 +1,4 @@
-# IAASWW
+# campus life
 
 Bienvenue sur le projet `Campus life`.
 
